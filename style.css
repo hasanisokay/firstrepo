@@ -1,0 +1,10 @@
+h1{
+    background-image: url(ima.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-size: contain;
+}
+.g{
+    border: 2px solid yellow;
+}
