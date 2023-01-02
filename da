@@ -1,0 +1,78 @@
+[33mcommit 905180ed6b59d2082e038b0f3a686002f98547d9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: hasanisokay <hasanisokay@gmail.com>
+Date:   Mon Jan 2 20:44:45 2023 +0600
+
+    My first github repo
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dee4003[m
+Binary files /dev/null and b/README.md differ
+[1mdiff --git a/color.html b/color.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3b50f56[m
+[1m--- /dev/null[m
+[1m+++ b/color.html[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Website</title>[m
+[32m+[m[32m    <style>[m
+[32m+[m[32m        .blog{[m
+[32m+[m[32m            /* background-color: blue; */[m
+[32m+[m[32m            color: red;[m
+[32m+[m[32m            border: 8px dashed black;[m
+[32m+[m[32m            border-radius: 10px;[m
+[32m+[m[32m            margin: 10px 50px 2px 200px;[m
+[32m+[m[41m            [m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m    </style>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <h1>Hi</h1>[m
+[32m+[m[32m    <P>Hi there, how are you?</P>[m
+[32m+[m[32m    <ul style="list-style-type: square;" >[m
+[32m+[m[32m        <li>inline style</li>[m
+[32m+[m[32m        <li></li>[m
+[32m+[m[32m        <li></li>[m
+[32m+[m[32m        <li></li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m[32m    <div class="blog">[m[41m [m
+[32m+[m[32m        <h1>First Blog</h1>[m
+[32m+[m[32m        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae, commodi placeat quia unde consectetur blanditiis sunt mollitia dolores iure ea cupiditate? Cum, veritatis? Esse quo perspiciatis odio aliquam dolor.</span><span>Consequuntur, nobis minima! Magni voluptatibus explicabo placeat modi excepturi dolore quam, voluptatem est iure officiis enim repellendus magnam debitis, nulla quis ipsam cumque ad molestias doloremque at fugiat? Quas, nostrum?</span></p>[m
+[32m+[m[32m    </div>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <div class="blog">[m[41m [m
+[32m+[m[32m        <h1>Second Blog</h1>[m
+[32m+[m[32m        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae, commodi placeat quia unde consectetur blanditiis sunt mollitia dolores iure ea cupiditate? Cum, veritatis? Esse quo perspiciatis odio aliquam dolor.</span><span>Consequuntur, nobis minima! Magni voluptatibus explicabo placeat modi excepturi dolore quam, voluptatem est iure officiis enim repellendus magnam debitis, nulla quis ipsam cumque ad molestias doloremque at fugiat? Quas, nostrum?</span></p>[m
+[32m+[m[32m    </div>[m[41m    [m
+[32m+[m[41m    [m
+[32m+[m[32m    <div>[m[41m [m
+[32m+[m[32m        <h1>Third Blog</h1>[m
+[32m+[m[32m        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae, commodi placeat quia unde consectetur blanditiis sunt mollitia dolores iure ea cupiditate? Cum, veritatis? Esse quo perspiciatis odio aliquam dolor.</span><span>Consequuntur, nobis minima! Magni voluptatibus explicabo placeat modi excepturi dolore quam, voluptatem est iure officiis enim repellendus magnam debitis, nulla quis ipsam cumque ad molestias doloremque at fugiat? Quas, nostrum?</span></p>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m    </body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c54d4c9[m
+[1m--- /dev/null[m
+[1m+++ b/style.css[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32mh1{[m
+[32m+[m[32m    background-image: url(ima.jpeg);[m
+[32m+[m[32m    height: 400px;[m
+[32m+[m[32m    background-repeat: no-repeat;[m
+[32m+[m[32m    background-blend-mode: color;[m
+[32m+[m[32m    background-size: contain;[m
+[32m+[m[32m}[m
+[32m+[m[32m.g{[m
+[32m+[m[32m    border: 2px solid yellow;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
